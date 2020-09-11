@@ -1,0 +1,62 @@
+body {
+  font-family: Tahoma;
+  font-size: 40px;
+}
+.flex-items {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 10;
+  left: 10;
+}
+.Flex-f {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.A {
+  width: 90px;
+  height: 150px;
+  border-left: 10px;
+  border-left-color: #d0d0ff;
+  border-left-style: dotted;
+  padding-left: 10px;
+  text-align: left;
+  margin-left: 10px;
+  background-color: #eeeff2;
+}
+.A:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+.B {
+  width: 90px;
+  height: 150px;
+  border-left: 10px;
+  margin-left: 10px;
+  border-left-color: #d0d0ff;
+  border-left-style: dotted;
+  padding-left: 10px;
+  text-align: left;
+  background-color: #eeeff2;
+}
+.B:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+.F {
+  width: 90px;
+  height: 150px;
+  border-left: 10px;
+  border-left-color: #d0d0ff;
+  border-left-style: dotted;
+  padding-left: 10px;
+  text-align: left;
+  background-color: #eeeff2;
+}
+.F:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
